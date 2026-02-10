@@ -7,3 +7,21 @@ inventory = {
 }
 
 discount_threshold = 100
+
+print("Processing started")
+
+for item in inventory:
+    current_stock = inventory[item][0]
+    minimum_stock = inventory[item][1]
+    restock_quant = inventory[item][2]
+    sale_status = inventory[item][3]
+    print(current_stock)
+    print(minimum_stock)
+    print(restock_quant)
+    print(sale_status)          
+
+
+
+    
+    
+    
